@@ -1,0 +1,12 @@
+.header-main {
+	padding-top: $vertical-spacing * 3;
+	border-bottom: 3px solid $color-base-light;
+	h1 {
+		display: none;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+		width: $media-tablet-portrait;
+	}
+}

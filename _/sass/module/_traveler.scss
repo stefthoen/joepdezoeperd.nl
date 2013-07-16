@@ -1,0 +1,13 @@
+.traveler {
+	padding-top: $vertical-spacing;
+	img {
+		width: 100%;
+		border: 1.5em solid $color-base-dark;
+	}
+	@media only screen and ($media-type: $media-tablet-portrait) { 
+		@include grid(24, 1); 
+	}
+	@media only screen and ($media-type: $media-desktop) { 
+		@include grid(12, 1); 
+	}
+}
