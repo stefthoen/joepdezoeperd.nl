@@ -5,6 +5,8 @@
 		display: none;
 	}
 	img {
+		position: relative;
+		bottom: -3px;
 		display: block;
 		margin: 0 auto;
 		width: $media-tablet-portrait;

@@ -170,7 +170,7 @@ strong {
 
 /* line 1, ../sass/module/_block-tipstouch.scss */
 .block-tipstouch {
-  background-color: #df9c95;
+  background-color: #ecc3bf;
   color: #86271e; }
   /* line 4, ../sass/module/_block-tipstouch.scss */
   .block-tipstouch a {
@@ -185,6 +185,8 @@ strong {
     display: none; }
   /* line 7, ../sass/module/_header-main.scss */
   .header-main img {
+    position: relative;
+    bottom: -3px;
     display: block;
     margin: 0 auto;
     width: 590px; }
@@ -193,6 +195,7 @@ strong {
 .intro {
   margin-bottom: 0.625em;
   line-height: 1.4;
+  letter-spacing: 1px;
   font-size: 26px;
   color: #fbf5f4; }
 
