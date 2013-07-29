@@ -1,4 +1,3 @@
-/* line 17, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +18,30 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -64,7 +55,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Use this mixin to reset your grid by example for your mobile grid */
 /* The clearfix mixin is necessary for the floats */
 @media only screen and (min-width: 590px) {
-  /* line 64, ../sass/base/_grid.scss */
   .l-full {
     float: left;
     width: 95.83333%;
@@ -72,7 +62,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     margin-right: 2.08333%; } }
 
 @media only screen and (min-width: 590px) {
-  /* line 67, ../sass/base/_grid.scss */
   .l-two-third {
     float: left;
     width: 62.5%;
@@ -80,7 +69,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     margin-right: 2.08333%; } }
 
 @media only screen and (min-width: 590px) {
-  /* line 70, ../sass/base/_grid.scss */
   .l-half {
     float: left;
     width: 45.83333%;
@@ -88,31 +76,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     margin-right: 2.08333%; } }
 
 @media only screen and (min-width: 590px) {
-  /* line 73, ../sass/base/_grid.scss */
   .l-one-third {
     float: left;
     width: 29.16667%;
     margin-left: 2.08333%;
     margin-right: 2.08333%; } }
 
-/* line 78, ../sass/base/_grid.scss */
 .l-first {
   clear: left; }
 
-/* line 1, ../sass/base/_base.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 5, ../sass/base/_base.scss */
 body {
   background-color: #c0392b;
   color: #ecc3bf;
   line-height: 1.5;
   font-family: Arial, sans-serif; }
 
-/* line 12, ../sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Chunk Five", sans-serif;
   text-transform: uppercase;
@@ -122,11 +105,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .1em;
   color: #86271e; }
 
-/* line 22, ../sass/base/_base.scss */
 p {
   margin: 1.25em 0; }
 
-/* line 26, ../sass/base/_base.scss */
 a {
   -webkit-transition-property: background-color;
   -moz-transition-property: background-color;
@@ -143,23 +124,19 @@ a {
   color: #fbf5f4;
   text-decoration: none;
   border-bottom: 1px solid; }
-  /* line 33, ../sass/base/_base.scss */
   a:hover {
     background-color: #fbf5f4;
     color: #ac3326; }
 
-/* line 38, ../sass/base/_base.scss */
 strong {
   display: inline-block;
   color: #fbf5f4; }
 
-/* line 1, ../sass/module/_container.scss */
 .container {
   *zoom: 1;
   max-width: 75em;
   margin: auto;
   padding: 2.5em; }
-  /* line 58, ../sass/base/_grid.scss */
   .container:before, .container:after {
     display: block;
     height: 0 !important;
@@ -167,34 +144,27 @@ strong {
     overflow: hidden;
     visibility: hidden;
     content: "."; }
-  /* line 59, ../sass/base/_grid.scss */
   .container:after {
     clear: both; }
 
-/* line 2, ../sass/module/_block-why.scss */
 .block-why .container {
   padding-bottom: 0; }
 
 @media only screen and (min-width: 960px) {
-  /* line 1, ../sass/module/_block-who.scss */
   .block-who {
     float: left;
     width: 97.91667%;
     margin-left: 1.04167%;
     margin-right: 1.04167%; } }
 
-/* line 1, ../sass/module/_block-whenwhere.scss */
 .block-whenwhere {
   background-color: #ac3326; }
 
-/* line 1, ../sass/module/_block-tipstouch.scss */
 .block-tipstouch {
   background-color: #ecc3bf;
   color: #86271e; }
-  /* line 4, ../sass/module/_block-tipstouch.scss */
   .block-tipstouch a {
     color: #ac3326; }
-    /* line 6, ../sass/module/_block-tipstouch.scss */
     .block-tipstouch a:hover {
       -webkit-transition-property: background-color;
       -moz-transition-property: background-color;
@@ -204,7 +174,6 @@ strong {
       -moz-transition-duration: 0.5s;
       -o-transition-duration: 0.5s;
       transition-duration: 0.5s; }
-  /* line 11, ../sass/module/_block-tipstouch.scss */
   .block-tipstouch input {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -216,23 +185,19 @@ strong {
     margin-bottom: 1.25em;
     font-size: 16px;
     color: #86271e; }
-    /* line 18, ../sass/module/_block-tipstouch.scss */
     .block-tipstouch input:focus {
       outline: none; }
-  /* line 22, ../sass/module/_block-tipstouch.scss */
   .block-tipstouch input[type="email"] {
     width: 100%;
     margin-bottom: 0.625em;
     border: 1px solid #ac3326;
     background-color: transparent; }
-  /* line 28, ../sass/module/_block-tipstouch.scss */
   .block-tipstouch input[type="submit"] {
     width: 100%;
     border: none;
     background-color: #c0392b;
     color: #fbf5f4;
     cursor: pointer; }
-    /* line 34, ../sass/module/_block-tipstouch.scss */
     .block-tipstouch input[type="submit"]:hover {
       -webkit-transition-property: background-color;
       -moz-transition-property: background-color;
@@ -243,24 +208,19 @@ strong {
       -o-transition-duration: 0.5s;
       transition-duration: 0.5s;
       background-color: #86271e; }
-  /* line 40, ../sass/module/_block-tipstouch.scss */
   .block-tipstouch .twitter {
     clear: left; }
   @media only screen and (min-width: 767px) {
-    /* line 44, ../sass/module/_block-tipstouch.scss */
     .block-tipstouch input[type="email"] {
       width: 65%;
       margin-right: 5%;
       margin-bottom: 1.25em; }
-    /* line 49, ../sass/module/_block-tipstouch.scss */
     .block-tipstouch input[type="submit"] {
       width: 30%; } }
 
-/* line 1, ../sass/module/_header-main.scss */
 .header-main {
   padding-top: 3.75em;
   border-bottom: 2px solid #ecc3bf; }
-  /* line 4, ../sass/module/_header-main.scss */
   .header-main .logo {
     position: relative;
     bottom: -2px;
@@ -268,26 +228,21 @@ strong {
     margin: 0 auto;
     width: 70%; }
   @media only screen and (min-width: 767px) {
-    /* line 1, ../sass/module/_header-main.scss */
     .header-main {
       border-bottom: 3px solid #ecc3bf; }
-      /* line 13, ../sass/module/_header-main.scss */
       .header-main .logo {
         bottom: -3px;
         width: 60%; } }
   @media only screen and (min-width: 960px) {
-    /* line 19, ../sass/module/_header-main.scss */
     .header-main .logo {
       width: 50%; } }
 
-/* line 1, ../sass/module/_title.scss */
 h1 {
   position: relative;
   top: -32px;
   font-size: 32px;
   color: #86271e; }
 
-/* line 1, ../sass/module/_intro.scss */
 .intro {
   margin-top: 0;
   margin-bottom: 0.625em;
@@ -297,25 +252,20 @@ h1 {
   color: #fbf5f4;
   text-align: center; }
 
-/* line 1, ../sass/module/_traveler.scss */
 .traveler {
   padding-top: 1.25em; }
-  /* line 3, ../sass/module/_traveler.scss */
   .traveler img {
     width: 100%;
     border: 1.5em solid #ac3326; }
   @media only screen and (min-width: 590px) and (max-width: 960px) {
-    /* line 1, ../sass/module/_traveler.scss */
     .traveler {
       float: left;
       width: 45.83333%;
       margin-left: 2.08333%;
       margin-right: 2.08333%; }
-      /* line 9, ../sass/module/_traveler.scss */
       .traveler:nth-child(2n+2) {
         clear: left; } }
   @media only screen and (min-width: 960px) {
-    /* line 1, ../sass/module/_traveler.scss */
     .traveler {
       float: left;
       width: 22.91667%;
