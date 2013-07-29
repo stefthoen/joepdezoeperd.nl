@@ -24,6 +24,9 @@ p {
 }
 
 a {
+	@include transition-property(background-color);
+	@include transition-property(color);
+	@include transition-duration(.5s);
 	color: $color-base-lighter;
 	text-decoration: none;
 	border-bottom: 1px solid;
@@ -34,6 +37,6 @@ a {
 }
 strong {
 	display: inline-block;
-	background-color: $color-base;
-	padding: 0 .4em;
+	// background-color: $color-base-light;
+	color: $color-base-lighter;
 }

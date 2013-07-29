@@ -1,14 +1,23 @@
 .header-main {
 	padding-top: $vertical-spacing * 3;
-	border-bottom: 3px solid $color-base-light;
-	h1 {
-		display: none;
-	}
-	img {
+	border-bottom: 2px solid $color-base-light;
+	.logo {
 		position: relative;
-		bottom: -3px;
+		bottom: -2px;
 		display: block;
 		margin: 0 auto;
-		width: $media-tablet-portrait;
+		width: 70%;
+	}
+	@media only screen and ($media-type: $media-tablet) { 
+		border-bottom: 3px solid $color-base-light;
+		.logo {
+			bottom: -3px;
+			width: 60%;
+		}
+	}
+	@media only screen and ($media-type: $media-desktop) { 
+		.logo {
+			width: 50%;
+		}
 	}
 }

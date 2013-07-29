@@ -1,0 +1,5 @@
+.block-who {
+	@media only screen and ($media-type: $media-desktop) { 
+		@include grid(48, .5);
+	}
+}

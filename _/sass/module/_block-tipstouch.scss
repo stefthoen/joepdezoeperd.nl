@@ -1,7 +1,53 @@
 .block-tipstouch {
-	background-color: $color-base-semi-light;
+	background-color: $color-base-light;
 	color: $color-base-darker;
 	a {
 		color: $color-base-dark;
+		&:hover {
+			@include transition-property(background-color);
+			@include transition-duration(.5s);
+		}
+	}
+	input {
+		@include border-radius(5px);
+		padding: 1em 0.5em;
+		float: left;
+		margin-bottom: $vertical-spacing;
+		font-size: $font-size-normal;
+		color: $color-base-darker;
+		&:focus {
+			outline: none;
+		}
+	}
+	input[type="email"] {
+		width: 100%;
+		margin-bottom: $vertical-spacing / 2;
+		border: 1px solid $color-base-dark;
+		background-color: transparent;
+	}
+	input[type="submit"] {
+		width: 100%;
+		border: none;
+		background-color: $color-base;
+		color: $color-base-lighter;
+		cursor: pointer;
+		&:hover {
+			@include transition-property(background-color);
+			@include transition-duration(.5s);
+			background-color: $color-base-darker;
+		}
+	}
+	.twitter {
+		clear: left;
+	}
+	@media only screen and ($media-type: $media-tablet) { 
+		input[type="email"] {
+			width: 65%;
+			margin-right: 5%;
+			margin-bottom: $vertical-spacing;
+		}
+		input[type="submit"] {
+			width: 30%;
+		}
 	}
 }

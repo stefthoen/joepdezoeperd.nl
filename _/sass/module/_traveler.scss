@@ -4,8 +4,11 @@
 		width: 100%;
 		border: 1.5em solid $color-base-dark;
 	}
-	@media only screen and ($media-type: $media-tablet-portrait) { 
+	@media only screen and ($media-type: $media-tablet-portrait) and (max-width: $media-desktop) { 
 		@include grid(24, 1); 
+		&:nth-child(2n+2) {
+			clear: left;
+		}
 	}
 	@media only screen and ($media-type: $media-desktop) { 
 		@include grid(12, 0.5); 
