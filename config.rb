@@ -8,7 +8,7 @@ images_dir = "_/images"
 javascripts_dir = "_/javascripts"
 fonts_dir = "_/fonts"
 
-output_style = :nested
+output_style = :compressed
 environment = :production
 
 relative_assets = true
