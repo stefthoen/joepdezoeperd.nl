@@ -1,18 +1,18 @@
 .header-main {
 	padding-top: $vertical-spacing * 3;
-	border-bottom: 2px solid $color-base-light;
+	border-bottom: 3px solid $color-base-lighter;
 	.logo {
 		position: relative;
-		bottom: -2px;
+		bottom: -3px;
 		display: block;
 		margin: 0 auto;
 		width: 70%;
 	}
 	@media only screen and ($media-type: $media-tablet) { 
 		padding-top: $vertical-spacing * 10;
-		border-bottom: 3px solid $color-base-light;
+		border-bottom: 4px solid $color-base-lighter;
 		.logo {
-			bottom: -3px;
+			bottom: -4px;
 			width: 60%;
 		}
 	}
