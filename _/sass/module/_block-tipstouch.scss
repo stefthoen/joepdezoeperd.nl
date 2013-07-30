@@ -1,18 +1,22 @@
 .block-tipstouch {
-	background-color: $color-base-light;
+	background-color: $color-base-lighter;
 	color: $color-base-darker;
 	a {
 		color: $color-base-dark;
 		&:hover {
 			@include transition-property(background-color);
+			@include transition-property(color);
 			@include transition-duration(.5s);
+			background-color: $color-base;
+			color: $color-base-lighter;
 		}
 	}
 	input {
 		@include border-radius(5px);
 		padding: 1em 0.5em;
-		float: left;
 		margin-bottom: $vertical-spacing;
+		border: 1px solid $color-base-dark;
+		float: left;
 		font-size: $font-size-normal;
 		color: $color-base-darker;
 		&:focus {
@@ -22,19 +26,18 @@
 	input[type="email"] {
 		width: 100%;
 		margin-bottom: $vertical-spacing / 2;
-		border: 1px solid $color-base-dark;
 		background-color: transparent;
 	}
 	input[type="submit"] {
 		width: 100%;
-		border: none;
 		background-color: $color-base;
 		color: $color-base-lighter;
 		cursor: pointer;
+		-webkit-appearance: none;
 		&:hover {
 			@include transition-property(background-color);
 			@include transition-duration(.5s);
-			background-color: $color-base-darker;
+			background-color: $color-base-dark;
 		}
 	}
 	.twitter {

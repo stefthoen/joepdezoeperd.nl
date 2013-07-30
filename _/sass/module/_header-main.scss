@@ -9,6 +9,7 @@
 		width: 70%;
 	}
 	@media only screen and ($media-type: $media-tablet) { 
+		padding-top: $vertical-spacing * 10;
 		border-bottom: 3px solid $color-base-light;
 		.logo {
 			bottom: -3px;
